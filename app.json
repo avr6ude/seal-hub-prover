@@ -8,11 +8,10 @@
   "license": "MIT",
   "website": "https://bwl.gg",
   "image": "seal-hub-prover",
-  
+  "stack": "container",
   "addons": [
   ],
   "env": {
-    
   },
   "scripts": {
     "start": "docker-compose --profile=development up"
