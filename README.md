@@ -27,3 +27,9 @@ And you should be good to go! Feel free to fork and submit pull requests.
 | `DOMAIN` | (Optional) Your domain for docker                                         |
 
 Also, please, consider looking at `.env.sample`.
+
+
+[![Deploy to DO](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/avr6ude/seal-hub-prover/tree/main)
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/avr6ude/seal-hub-prover/tree/main)
+
