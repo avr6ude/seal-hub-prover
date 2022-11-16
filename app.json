@@ -7,8 +7,9 @@
   "author": "Big Whale Labs",
   "license": "MIT",
   "website": "https://bwl.gg",
+  "image": "seal-hub-prover",
+  
   "addons": [
-
   ],
   "env": {
     
