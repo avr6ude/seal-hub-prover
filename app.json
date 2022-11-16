@@ -1,15 +1,18 @@
 {
-  "name": "SealHub Prover",
-  "description": "TODO: Add a short description about Seal Hub Prover",
-  "keywords": [
-    "small",
-    "sharp",
-    "tool"
-  ],
+  "name": "seal-hub-prover",
+  "version": "1.0.0",
+  "description": "Prover for SealHub",
+  "main": "dist/server.js",
+  "repository": "https://github.com/BigWhaleLabs/seal-hub-prover",
+  "author": "Big Whale Labs",
+  "license": "MIT",
   "addons": [
 
   ],
   "env": {
     
+  },
+  "scripts": {
+    "start": "docker-compose --profile=development up"
   }
 }
