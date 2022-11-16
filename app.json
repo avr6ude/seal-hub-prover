@@ -1,0 +1,15 @@
+{
+  "name": "SealHub Prover",
+  "description": "TODO: Add a short description about Seal Hub Prover",
+  "keywords": [
+    "small",
+    "sharp",
+    "tool"
+  ],
+  "addons": [
+
+  ],
+  "env": {
+    
+  }
+}
