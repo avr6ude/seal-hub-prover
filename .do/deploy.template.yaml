@@ -2,10 +2,9 @@ spec:
   name: seal-hub-prover
   services:
     - name: seal-hub-prover
-      github:
+      git:
         branch: main
-        deploy_on_push: true
-        repo: https://github.com/avr6ude/seal-hub-prover.git
+        repo_clone_url: https://github.com/avr6ude/seal-hub-prover.git
       dockerfile_path: Dockerfile.backend.production
   databases:
     - name: mongodb
