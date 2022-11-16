@@ -7,6 +7,5 @@ spec:
         branch: main
         deploy_on_push: true
         repo_clone_url: https://github.com/avr6ude/seal-hub-prover.git
-      
   databases:
     - name: mongodb

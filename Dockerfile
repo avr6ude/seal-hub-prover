@@ -1,6 +1,0 @@
-FROM node:18
-WORKDIR /usr
-COPY . ./
-RUN yarn
-RUN yarn download-zk-files
-CMD yarn distribute
