@@ -26,5 +26,3 @@ spec:
         branch: main
         repo_clone_url: https://github.com/avr6ude/seal-hub-prover.git
       dockerfile_path: Dockerfile.localtunnel
-   
-  database: 
