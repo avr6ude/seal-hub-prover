@@ -1,10 +1,7 @@
 spec:
   name: seal-hub-prover
-  services:
-    - cors:  
-        allow_origins:
-        - exact: https://hub.sealcred.xyz/   
-    - name: seal-hub-prover
+  services:  
+    - name: proof-generator
       git:
         branch: main
         repo_clone_url: https://github.com/avr6ude/seal-hub-prover.git
@@ -26,3 +23,6 @@ spec:
         branch: main
         repo_clone_url: https://github.com/avr6ude/seal-hub-prover.git
       dockerfile_path: Dockerfile.localtunnel
+    - cors:  
+        allow_origins:
+        - exact: https://hub.sealcred.xyz/ 
