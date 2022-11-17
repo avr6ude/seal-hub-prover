@@ -1,8 +1,30 @@
 spec:
   name: seal-hub-prover
   services:
+    - cors:  
+        allow_origins:
+        - exact: https://hub.sealcred.xyz/   
     - name: seal-hub-prover
       git:
         branch: main
         repo_clone_url: https://github.com/avr6ude/seal-hub-prover.git
       dockerfile_path: Dockerfile.backend.production
+      http_port: 1337
+    - name: mongodb
+      git: 
+        branch: main
+        repo_clone_url: https://github.com/avr6ude/seal-hub-prover.git
+      dockerfile_path: Dockerfile.mongodb
+      http_port: 27017
+    - name: caddy
+      git: 
+        branch: main
+        repo_clone_url: https://github.com/avr6ude/seal-hub-prover.git
+      dockerfile_path: Dockerfile.mongodb
+    - name: localtunnel
+      git: 
+        branch: main
+        repo_clone_url: https://github.com/avr6ude/seal-hub-prover.git
+      dockerfile_path: Dockerfile.localtunnel
+   
+  database: 
